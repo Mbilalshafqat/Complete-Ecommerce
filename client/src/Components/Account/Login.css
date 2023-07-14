@@ -4,6 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* align-items: center;
+  align-items: center;
+  align-items: center; */
 }
 .login_child{
     background-color: white;
