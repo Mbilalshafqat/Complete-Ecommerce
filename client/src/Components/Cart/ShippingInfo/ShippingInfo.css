@@ -1,0 +1,115 @@
+.shippig_info{
+    padding: 10px ;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: whitesmoke;
+}
+.shippig_info h2{
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: #112A45;
+}
+
+.shipping_info_child{
+    border: 1px solid rgb(203, 196, 196);
+    width: 650px;
+    padding: 10px;
+    background-color: white;
+}
+
+.shippig_info input{
+    width: 100%;
+    border: 1px solid gray;
+    margin: 5px 0px;
+    padding: 5px 10px;
+}
+
+.shippig_info select{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    border: 1px solid black;
+}
+
+
+/* -------------------- shipping_cart_info  */
+.shipping_cart_info{
+    width: 350px;
+    height: 250px;
+    border: 1px solid rgb(192, 189, 189);
+    background-color: white;
+}
+.shipping_cart_info img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.cart_info_images{
+    height: 150;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    overflow: hidden;
+}
+
+
+/* ------------------------- status  */
+.status{
+    margin: 20px auto;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.status_box_1{
+    background-color: red;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 15px;
+    opacity: .4;
+    z-index: 10;
+}
+.status_box_active{
+    z-index: 10;
+    opacity: 1;
+    position: relative;
+}
+
+
+
+@media(max-width : 610px){
+    .shippig_info{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .shipping_cart_info{
+        order: 1;
+    }
+    .shipping_info_child{
+        width: 100%;
+        padding: 15px;
+        order: 2;
+    }
+    .status{
+        width: 100%;
+        font-size: 17px;
+        padding: 10px 5px;
+    }
+    .status_box_1{
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width : 400px){
+    .shipping_cart_info{
+        width: 100%;
+    }
+}

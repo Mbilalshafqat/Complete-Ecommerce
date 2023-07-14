@@ -1,0 +1,60 @@
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.methos_payment{
+  /* border: 1px solid rgb(218, 214, 214); */
+  width: 600px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.methos_payment button{
+    padding: 6px 20px;
+    border: 1px solid #112A45;
+    margin: 10px 0px;
+    background-color: #112A45;
+    color: white;
+}
+.methos_payment button:hover{
+    background-color: white;
+
+    color: black;
+}
+.card_payment_inputs{
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+}
+.card_payment_inputs input{
+    border: 1px solid rgb(212, 207, 207);
+    width: 100%;
+    outline: none;
+    padding: 5px 10px;
+    margin: 5px;
+
+}
+
+.card-expiry-input {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .card-expiry-element {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card-expiry-element::placeholder {
+    color: #ccc;
+  }
+  

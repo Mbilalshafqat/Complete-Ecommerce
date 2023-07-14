@@ -1,0 +1,50 @@
+.timer{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.timer p{
+    border: 1px solid gray;
+    margin: 2px 6px;
+    padding: 7px;
+    font-weight: bold;
+}
+.timer_parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.t_show{
+    font-weight: bold;
+}
+.Event{
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+@media(max-width : 800px){
+    .Event{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .image_event {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
+
+@media(max-width : 510px){
+    .image_event img{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+}
